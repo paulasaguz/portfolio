@@ -2,6 +2,12 @@ import styled from 'styled-components'
 
 const StyledHeader = styled.header`
   box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  background: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 `;
 
 const StyledUl = styled.ul`

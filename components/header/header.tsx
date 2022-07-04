@@ -1,5 +1,5 @@
 import Logo from '../logo';
-import Container from '../ui-components/container'
+import Container from '../ui-components/container/container'
 
 import { StyledHeader, StyledUl, StyledList } from './styles'
 
