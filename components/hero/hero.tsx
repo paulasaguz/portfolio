@@ -15,7 +15,7 @@ function Hero(): JSX.Element {
         </TitleContainer>
       </Container>
       <StyledImage>
-        <Image alt="foto de paula" objectFit="cover" src="/assets/group17.png" width="630" height="720" />
+        <Image alt="foto de paula" objectFit="cover" src="/static/img/group17.png" width="630" height="720" />
       </StyledImage>
     </StyledHero>
   )
