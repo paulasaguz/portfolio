@@ -1,17 +1,21 @@
-import Container from '../ui-components/container/container'
 import Image from 'next/image'
+import { useTranslation } from 'react-i18next';
+
+import Container from '../ui-components/container/container'
 
 import { StyledImage, StyledHero, TitleContainer, H1, Subtitle, Paragraph } from './styles'
 
 
 function Hero(): JSX.Element {
+  const { t } = useTranslation();
+
   return (
     <StyledHero>
       <Container>
         <TitleContainer>
-          <H1>¡Hola! Soy Paula</H1>
-          <Subtitle>Ingeniera en mecatronica software Engineer</Subtitle>
-          <Paragraph>Colombian based in Mexico, Im passionate about digital products, startup and tech culture, always focused on solving real problems for the users and making the web more colourful and accessible for anyone.</Paragraph>
+          <H1>{t('LandingPage.Title')}</H1>
+          <Subtitle>{t('LandingPage.Subtitle')}</Subtitle>
+          <Paragraph>{t('LandingPage.Description')}</Paragraph>
         </TitleContainer>
       </Container>
       <StyledImage>

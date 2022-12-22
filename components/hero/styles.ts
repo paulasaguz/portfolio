@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const StyledImage = styled.div`
   position: absolute;
   right: 0;
-  top: -10px;
+  top: -24px;
   z-index: 0;
 `;
 
@@ -19,14 +19,14 @@ const TitleContainer = styled.div`
 const H1 = styled.h1`
   font-size: 64px;
   font-weight: 700;
-  margin-block-end: 16px;
+  margin-block-end: 8px;
 `
 
 const Subtitle = styled.p`
   color: var(--primary);
   font-size: 32px;
   font-weight: 700;
-  margin-block-start: 16px;
+  margin-block-start: 8px;
 `
 
 const Paragraph = styled.p`

@@ -5,6 +5,7 @@ import Header from '../components/header'
 import Hero from '../components/hero'
 import Footer from '../components/footer'
 import MyGlobalStyle from '../styles/global-styles'
+import '../i18n';
 
 const Home: NextPage = () => {
   return (
