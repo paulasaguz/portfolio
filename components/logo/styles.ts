@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const StyledLogo = styled.div`
+const StyledLogo = styled.span`
   color: var(--primary);
   font-size: 24px;
   font-weight: 700;

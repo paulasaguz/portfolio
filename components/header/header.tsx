@@ -1,5 +1,6 @@
 import Logo from '../logo';
 import Container from '../ui-components/container/container'
+import Link from 'next/link'
 
 import { StyledHeader, StyledUl, StyledList } from './styles'
 
@@ -7,30 +8,33 @@ function Header(): JSX.Element {
   return (
     <StyledHeader>
       <Container>
-        <a><Logo /></a>
+        <nav>
+          <Link href='/'>
+            <a>
+              <Logo />
+            </a>
+          </Link>
+        </nav>
         <nav>
           <StyledUl>
             <StyledList>
-              <a>about</a>
+              <Link href='/'>about</Link>
             </StyledList>
             <StyledList>
-              <a>blog</a>
+              <Link href='/blog'>blog</Link>
             </StyledList>
             <StyledList>
-              <a>talks</a>
+              <Link href='/'>talks</Link>
             </StyledList>
           </StyledUl>
         </nav>
         <nav>
           <StyledUl>
             <StyledList>
-              <a>instagram</a>
+              <Link href='https://www.linkedin.com/in/paulasaguz/'>Linkedn</Link>
             </StyledList>
             <StyledList>
-              <a>linkedin</a>
-            </StyledList>
-            <StyledList>
-              <a>twitter</a>
+              <Link href='https://github.com/paulasaguz'>Github</Link>
             </StyledList>
             </StyledUl>
         </nav>
