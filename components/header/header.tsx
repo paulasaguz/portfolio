@@ -1,8 +1,10 @@
-import Logo from '../logo';
-import Container from '../ui-components/container/container'
 import Link from 'next/link'
 
-import { StyledHeader, StyledUl, StyledList } from './styles'
+import Logo from '../logo';
+import Container from '../ui-components/container/container'
+import MediumIcon from '../../public/icons/medium.svg'
+
+import { StyledHeader, StyledUl, StyledList, StyledGithubIcon, StyledLinkedInIcon } from './styles'
 
 function Header(): JSX.Element {
   return (
@@ -31,12 +33,25 @@ function Header(): JSX.Element {
         <nav>
           <StyledUl>
             <StyledList>
-              <Link href='https://www.linkedin.com/in/paulasaguz/'>Linkedn</Link>
+              <Link href='https://www.linkedin.com/in/paulasaguz/' target="_blank">
+                <a>
+                  <StyledLinkedInIcon title="LinkedIn" />
+                </a>
+              </Link>
             </StyledList>
             <StyledList>
-              <Link href='https://github.com/paulasaguz'>Github</Link>
+              <Link href='https://github.com/paulasaguz' target="_blank">
+                <a>
+                  <StyledGithubIcon title="Github" />
+                </a>
+              </Link>
             </StyledList>
-            </StyledUl>
+            {/* <StyledList>
+              <Link href='https://medium.com/@paulajohana'>
+                <MediumIcon title="Medium" />
+              </Link>
+            </StyledList> */}
+          </StyledUl>
         </nav>
       </Container>
     </StyledHeader>

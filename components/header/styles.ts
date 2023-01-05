@@ -1,4 +1,20 @@
 import styled from 'styled-components'
+import LinkedInIcon from '../../public/icons/linkedin.svg'
+import GithubIcon from '../../public/icons/github.svg'
+
+const StyledGithubIcon = styled(GithubIcon)`
+  cursor: pointer;
+  &:hover {
+    fill: var(--primary);
+  }
+`;
+
+const StyledLinkedInIcon = styled(LinkedInIcon)`
+  cursor: pointer;
+  &:hover {
+    fill: var(--primary);
+  }
+`;
 
 const StyledHeader = styled.header`
   box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
@@ -24,4 +40,4 @@ const StyledList = styled.li`
   align-items: center;
 `;
 
-export { StyledHeader, StyledUl, StyledList }
+export { StyledHeader, StyledUl, StyledList, StyledGithubIcon, StyledLinkedInIcon }
