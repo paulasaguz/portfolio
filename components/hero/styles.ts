@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import Container from '../ui-components/container/container'
+
 import { BREAKPOINTS_VALUES } from '../ui-components/breakpoints'
 
 const StyledImage = styled.div`
@@ -13,13 +15,10 @@ const StyledImage = styled.div`
   }
 `;
 
-const Wrapper = styled.div`
-  display: flex;
-
+const Wrapper = styled(Container)`
   @media (max-width: ${BREAKPOINTS_VALUES.tabletPortrait}) {
     flex-direction: column-reverse;
   }
-
 `;
 
 const StyledHero = styled.div`
