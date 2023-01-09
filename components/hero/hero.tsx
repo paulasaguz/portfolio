@@ -24,7 +24,7 @@ function Hero(): JSX.Element {
             objectFit="cover"
             src="/images/background.png"
             width={1.1}
-            height={1}
+            height={0.999}
             layout="responsive"
             />
         </StyledImage>

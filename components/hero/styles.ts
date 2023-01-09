@@ -5,9 +5,10 @@ import { BREAKPOINTS_VALUES } from '../ui-components/breakpoints'
 
 const StyledImage = styled.div`
   z-index: 0;
-  width: 630px;
-  height: 720px;
+  width: 850px;
+  height: 920px;
   margin-block-start: -24px;
+  margin-inline-end: -205px;
 
   @media (max-width: ${BREAKPOINTS_VALUES.tabletPortrait}) {
     width: 430px;
