@@ -1,16 +1,30 @@
 import styled from 'styled-components'
+import { BREAKPOINTS_VALUES } from '../ui-components/breakpoints'
 
 const StyledImage = styled.div`
-  position: absolute;
-  right: 0;
-  top: -24px;
   z-index: 0;
+  width: 630px;
+  height: 720px;
+  margin-block-start: -24px;
+
+  @media (max-width: ${BREAKPOINTS_VALUES.tabletPortrait}) {
+    width: 430px;
+    height: 520px;
+  }
+`;
+
+const Wrapper = styled.div`
+  display: flex;
+
+  @media (max-width: ${BREAKPOINTS_VALUES.tabletPortrait}) {
+    flex-direction: column-reverse;
+  }
+
 `;
 
 const StyledHero = styled.div`
   position: relative;
   margin: 80px 0 0;
-  height: 800px;
 `;
 
 const TitleContainer = styled.div`
@@ -32,6 +46,16 @@ const Subtitle = styled.p`
 const Paragraph = styled.p`
   color: var(--secondary);
   max-width: 500px;
+  font-size: 1.1em;
+
+  a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 700;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 `;
 
-export { StyledImage, StyledHero, TitleContainer, H1, Subtitle, Paragraph };
+export { Wrapper, StyledImage, StyledHero, TitleContainer, H1, Subtitle, Paragraph };

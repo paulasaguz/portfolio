@@ -1,17 +1,18 @@
 import styled from 'styled-components'
+
 import LinkedInIcon from '../../public/icons/linkedin.svg'
 import GithubIcon from '../../public/icons/github.svg'
 
 const StyledGithubIcon = styled(GithubIcon)`
   cursor: pointer;
-  &:hover {
+  path:hover {
     fill: var(--primary);
   }
 `;
 
 const StyledLinkedInIcon = styled(LinkedInIcon)`
   cursor: pointer;
-  &:hover {
+  path:hover {
     fill: var(--primary);
   }
 `;
@@ -38,6 +39,28 @@ const StyledList = styled.li`
   height: 80px;
   display: flex;
   align-items: center;
+  cursor: pointer;
+
+  a {
+    color: var(--secondary);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  &:hover {
+    a {
+      color: var(--primary);
+    }
+    path {
+      fill: var(--primary);
+    }
+  }
 `;
 
-export { StyledHeader, StyledUl, StyledList, StyledGithubIcon, StyledLinkedInIcon }
+const LogoContainer = styled.div`
+  a {
+    text-decoration: none;
+  }
+`;
+
+export { LogoContainer, StyledHeader, StyledUl, StyledList, StyledGithubIcon, StyledLinkedInIcon }

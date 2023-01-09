@@ -2,20 +2,22 @@ import Link from 'next/link'
 
 import Logo from '../logo';
 import Container from '../ui-components/container/container'
-import MediumIcon from '../../public/icons/medium.svg'
+// import MediumIcon from '../../public/icons/medium.svg'
 
-import { StyledHeader, StyledUl, StyledList, StyledGithubIcon, StyledLinkedInIcon } from './styles'
+import { LogoContainer, StyledHeader, StyledUl, StyledList, StyledGithubIcon, StyledLinkedInIcon } from './styles'
 
 function Header(): JSX.Element {
   return (
     <StyledHeader>
       <Container>
         <nav>
-          <Link href='/'>
-            <a>
-              <Logo />
-            </a>
-          </Link>
+          <LogoContainer>
+            <Link href='/'>
+              <a>
+                <Logo />
+              </a>
+            </Link>
+          </LogoContainer>
         </nav>
         <nav>
           <StyledUl>
@@ -34,15 +36,15 @@ function Header(): JSX.Element {
           <StyledUl>
             <StyledList>
               <Link href='https://www.linkedin.com/in/paulasaguz/' target="_blank">
-                <a>
-                  <StyledLinkedInIcon title="LinkedIn" />
+                <a title="LinkedIn" aria-label="LinkedIn">
+                  <StyledLinkedInIcon />
                 </a>
               </Link>
             </StyledList>
             <StyledList>
-              <Link href='https://github.com/paulasaguz' target="_blank">
-                <a>
-                  <StyledGithubIcon title="Github" />
+              <Link href='https://github.com/paulasaguz' target="_blank" >
+                <a title="Github" aria-label="Github">
+                  <StyledGithubIcon />
                 </a>
               </Link>
             </StyledList>
