@@ -26,7 +26,7 @@ function Hero(): JSX.Element {
             width={1.1}
             height={0.999}
             layout="responsive"
-            />
+          />
         </StyledImage>
       </Wrapper>
     </StyledHero>

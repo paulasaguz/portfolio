@@ -17,6 +17,8 @@ const StyledImage = styled.div`
 `;
 
 const Wrapper = styled(Container)`
+  align-items: flex-start;
+
   @media (max-width: ${BREAKPOINTS_VALUES.tabletPortrait}) {
     flex-direction: column-reverse;
   }
