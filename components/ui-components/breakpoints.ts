@@ -6,6 +6,7 @@ export const BREAKPOINTS_VALUES = Object.freeze({
   screenDesktop: '1280px',
   tabletLandscape: '1024px',
   tabletPortrait: '768px',
+  middleTablets: '640px',
   phoneXl: '414px',
   phoneLg: '411px',
   phoneMd: '375px',

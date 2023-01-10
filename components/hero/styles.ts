@@ -6,6 +6,7 @@ import { BREAKPOINTS_VALUES } from '../ui-components/breakpoints'
 const StyledImage = styled.div`
   z-index: 0;
   width: 750px;
+  max-width: 100vw;
   height: auto;
   margin-block-start: -24px;
   margin-inline-end: -205px;
@@ -15,7 +16,11 @@ const StyledImage = styled.div`
     height: auto;
     align-self: center;
     margin-inline-start: 15px;
-    margin-inline-end: 0px;
+    margin-inline-end: 0;
+  }
+
+  @media (max-width: ${BREAKPOINTS_VALUES.middleTablets}) {
+    margin-inline-start: 0;
   }
 `;
 

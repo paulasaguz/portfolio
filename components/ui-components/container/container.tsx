@@ -22,16 +22,32 @@ const Container = styled.div<FlexContainerInterface>`
     max-width: 640px;
   }
 
+  @media (max-width: ${BREAKPOINTS_VALUES.middleTablets}) {
+    max-width: 500px;
+  }
+
   @media (max-width: ${BREAKPOINTS_VALUES.phoneXl}) {
-    max-width: 380px;
+    max-width: 360px;
   }
 
   @media (max-width: ${BREAKPOINTS_VALUES.phoneLg}) {
     max-width: 350px;
   }
 
+  @media (max-width: ${BREAKPOINTS_VALUES.phoneMd}) {
+    max-width: 330px;
+  }
+
+  @media (max-width: ${BREAKPOINTS_VALUES.phoneSm}) {
+    max-width: 320px;
+  }
+
   @media (max-width: ${BREAKPOINTS_VALUES.phoneXs}) {
     max-width: 280px;
+  }
+
+  @media (max-width: ${BREAKPOINTS_VALUES.phoneXxs}) {
+    max-width: 250px;
   }
 `;
 
