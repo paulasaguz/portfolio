@@ -12,4 +12,5 @@ export const BREAKPOINTS_VALUES = Object.freeze({
   phoneMd: '375px',
   phoneSm: '360px',
   phoneXs: '320px',
+  phoneXxs: '280px',
 } as const);
