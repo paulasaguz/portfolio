@@ -5,14 +5,17 @@ import { BREAKPOINTS_VALUES } from '../ui-components/breakpoints'
 
 const StyledImage = styled.div`
   z-index: 0;
-  width: 850px;
-  height: 920px;
+  width: 750px;
+  height: auto;
   margin-block-start: -24px;
   margin-inline-end: -205px;
 
   @media (max-width: ${BREAKPOINTS_VALUES.tabletPortrait}) {
     width: 430px;
-    height: 520px;
+    height: auto;
+    align-self: center;
+    margin-inline-start: 15px;
+    margin-inline-end: 0px;
   }
 `;
 
@@ -26,16 +29,25 @@ const Wrapper = styled(Container)`
 
 const StyledHero = styled.div`
   position: relative;
-  margin: 80px 0 0;
+  margin-block-start: 80px;
 `;
 
 const TitleContainer = styled.div`
-  margin: 60px 0;
+  margin-block-start: 60px;
+
+  @media (max-width: ${BREAKPOINTS_VALUES.tabletPortrait}) {
+    margin-block-start: 10px;
+  }
 `
+
 const H1 = styled.h1`
   font-size: 64px;
   font-weight: 700;
   margin-block-end: 8px;
+
+  @media (max-width: ${BREAKPOINTS_VALUES.tabletPortrait}) {
+    font-size: 48px;
+  }
 `
 
 const Subtitle = styled.p`
@@ -43,6 +55,10 @@ const Subtitle = styled.p`
   font-size: 32px;
   font-weight: 700;
   margin-block-start: 8px;
+
+  @media (max-width: ${BREAKPOINTS_VALUES.tabletPortrait}) {
+    font-size: 24px;
+  }
 `
 
 const Paragraph = styled.p`

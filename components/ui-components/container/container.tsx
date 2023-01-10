@@ -3,7 +3,7 @@ import { FlexContainerInterface } from './types'
 import { BREAKPOINTS_VALUES } from '../breakpoints'
 
 const Container = styled.div<FlexContainerInterface>`
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: ${({ justifyContent }) => justifyContent};
@@ -11,7 +11,7 @@ const Container = styled.div<FlexContainerInterface>`
   flex-direction: ${({ direction }) => direction};
 
   @media (max-width: ${BREAKPOINTS_VALUES.screenDesktop}) {
-    max-width: 1140px;
+    max-width: 940px;
   }
 
   @media (max-width: ${BREAKPOINTS_VALUES.tabletLandscape}) {
@@ -31,7 +31,7 @@ const Container = styled.div<FlexContainerInterface>`
   }
 
   @media (max-width: ${BREAKPOINTS_VALUES.phoneXs}) {
-    max-width: 300px;
+    max-width: 280px;
   }
 `;
 
