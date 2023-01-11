@@ -6,7 +6,6 @@ import { BREAKPOINTS_VALUES } from '../ui-components/breakpoints'
 const StyledImage = styled.div`
   z-index: 0;
   width: 750px;
-  max-width: 100vw;
   height: auto;
   margin-block-start: -24px;
   margin-inline-end: -205px;
@@ -35,6 +34,7 @@ const Wrapper = styled(Container)`
 const StyledHero = styled.div`
   position: relative;
   margin-block-start: 80px;
+  overflow: hidden;
 `;
 
 const TitleContainer = styled.div`
