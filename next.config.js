@@ -13,6 +13,9 @@ const nextConfig = {
     defaultLocale: 'en',
     locales: ['en', 'es'],
   },
+  compiler: {
+    styledComponents: true,
+  },
 }
 
 module.exports = nextConfig
