@@ -22,7 +22,7 @@ function Hero(): JSX.Element {
           <Image 
             alt="foto de paula"
             objectFit="cover"
-            src="/images/background.png"
+            src="/static/images/background.png"
             width={1.1}
             height={0.999}
             layout="responsive"

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-import LinkedInIcon from '../../public/icons/linkedin.svg'
-import GithubIcon from '../../public/icons/github.svg'
+import LinkedInIcon from '../../static/icons/linkedin.svg'
+import GithubIcon from '../../static/icons/github.svg'
 
 const StyledGithubIcon = styled(GithubIcon)`
   cursor: pointer;
