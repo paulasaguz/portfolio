@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-
 import { useTranslation } from 'react-i18next';
-
 
 import { Wrapper, StyledImage, StyledHero, TitleContainer, H1, Subtitle, Paragraph } from './styles'
 
