@@ -45,6 +45,9 @@ const StyledList = styled.li`
     color: var(--secondary);
     text-decoration: none;
     font-weight: 600;
+    height: inherit;
+    display: flex;
+    align-items: center;
   }
 
   &:hover {
