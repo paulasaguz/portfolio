@@ -1,0 +1,11 @@
+.logo {
+  color: var(--primary);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.fontColor {
+  color: var(--font);
+  font-size: 16px;
+}

@@ -1,28 +1,25 @@
 import Logo from '../logo';
-import FlexContainer from '../ui-components/container/container'
 
-import { StyledFooter, StyledUl, StyledList } from './styles'
+import s from './footer.module.css'
 
 function Footer (): JSX.Element {
   return (
-    <StyledFooter>
-      <FlexContainer direction="column">
+    <footer className={s.root}>
         <a><Logo /></a>
         <nav>
-          <StyledUl>
-            <StyledList>
+          <ul>
+            <li>
               <a>about</a>
-            </StyledList>
-            <StyledList>
+            </li>
+            <li>
               <a>blog</a>
-            </StyledList>
-            <StyledList>
+            </li>
+            <li>
               <a>talks</a>
-            </StyledList>
-          </StyledUl>
+            </li>
+          </ul>
         </nav>
-      </FlexContainer>
-    </StyledFooter>
+    </footer>
   )
 }
 
