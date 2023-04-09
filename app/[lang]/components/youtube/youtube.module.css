@@ -1,0 +1,10 @@
+.youtubebar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-x: -moz-scrollbars-none;
+  overflow-x: scroll;
+}
+
+.youtubebar::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,14 @@
+{
+  "server-component": {
+    "welcome": "hola"
+  },
+  "landingPage": {
+    "title": "Hola, soy Paula",
+    "subtitle": "Software engineer",
+    "description": "Soy una desarrolladora frontend con 5 años de experiencia construyendo increibles productos digitales.",
+    "link": "Leer mas →"
+  },
+  "header": {
+    "about": "Acerca de mi"
+  }
+}

@@ -42,3 +42,9 @@ p {
 a {
   text-decoration: none;
 }
+
+@layer components {
+  .ctn {
+    margin: 0 40px;
+  }
+}
