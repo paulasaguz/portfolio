@@ -1,6 +1,6 @@
 import { Poppins, Azeret_Mono } from "@next/font/google";
 
-import { i18n } from '../i18n-config'
+import { i18n } from '../../i18n-config'
 import '@/styles/globals.css';
 
 export async function generateStaticParams() {
@@ -28,13 +28,8 @@ export default function RootLayout({
   params: { lang: string }
 }) {
   return (
-    <>
-    <head>
-      <title>Paula</title>
-    </head>
     <html lang={params.lang} className={`${poppins.variable} ${azeret.variable}`}>
       <body>{children}</body>
     </html>
-    </>
   )
 }
