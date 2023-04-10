@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+import paula from "@/public/images/background.png"
 import Twitter from '../icons/twitter';
 import LinkedIn from '../icons/linkedIn';
 import Medium from '../icons/medium';
@@ -50,7 +51,7 @@ function Hero({ dictionary }: {dictionary: any }): JSX.Element {
         <div className={s.image}>
           <Image 
             alt="foto de paula"
-            src="/images/background.png"
+            src={paula}
             width={700}
             height={600}
           />
