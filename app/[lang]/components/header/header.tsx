@@ -1,12 +1,13 @@
 'use client';
 
 import Link from 'next/link'
+import { Locale } from '@/i18n-config'
 
 import Logo from '../logo';
 import Sun from '../icons/sun';
 import s from './header.module.css'
 
-function Header({ dictionary }: {dictionary: { about: string}}): JSX.Element {
+function Header({ dictionary, lang }: {dictionary: { about: string}; lang: Locale}): JSX.Element {
   return (
     <header className={s.header}>
       <div className='ctn flex justify-between'>
@@ -18,13 +19,13 @@ function Header({ dictionary }: {dictionary: { about: string}}): JSX.Element {
         <div>
           <ul className={s.ul}>
             <li className={s.list}>
-              <Link href='/'>{dictionary.about}</Link>
+              <Link href={`/${lang}/about`}>{dictionary.about}</Link>
             </li>
-            <li className={s.list}>
+            {/* <li className={s.list}>
               <Link href='/blog'>blog</Link>
-            </li>
+            </li> */}
             <li className={s.list}>
-              <Link href='/'>talks</Link>
+              <Link href={`/${lang}/talks`}>talks</Link>
             </li>
           </ul>
         </div>

@@ -46,6 +46,7 @@
 
 .subtitle {
   color: var(--primary);
+  font-family: var(--poppins-font);
   font-size: 32px;
   font-weight: 500;
   margin-block-start: 8px;

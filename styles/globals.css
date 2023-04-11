@@ -8,6 +8,7 @@
   --tertiary: #F7F7F7;
   --background: #fcfcfc;
   --font: black;
+  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,8 +34,6 @@ a, h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-family: var(--poppins-font);
-  font-weight: lighter;
   line-height: 1.4;
   color: var(--font);
 }

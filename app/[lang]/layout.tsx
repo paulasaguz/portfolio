@@ -1,4 +1,9 @@
 import { Poppins, Azeret_Mono } from "@next/font/google";
+import { getDictionary } from '@/dictionaries';
+import { Locale } from '../../i18n-config'
+
+import Header from './components/header'
+import Footer from './components/footer'
 
 import { i18n } from '../../i18n-config'
 import '@/styles/globals.css';
@@ -20,16 +25,21 @@ const azeret = Azeret_Mono({
 })
 
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-  params,
+  params: { lang }
 }: {
   children: React.ReactNode
-  params: { lang: string }
+  params: { lang: Locale }
 }) {
+  const dictionary = await getDictionary(lang);
   return (
-    <html lang={params.lang} className={`${poppins.variable} ${azeret.variable}`}>
-      <body>{children}</body>
+    <html lang={lang} className={`${poppins.variable} ${azeret.variable}`}>
+      <body>
+      <Header dictionary={dictionary.header} lang={lang} />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

@@ -4,11 +4,22 @@
   },
   "landingPage": {
     "title": "Hola, soy Paula",
-    "subtitle": "Software engineer",
+    "subtitle": "Frontend engineer",
     "description": "Soy una desarrolladora frontend con 5 años de experiencia construyendo increibles productos digitales.",
     "link": "Leer mas →"
   },
   "header": {
     "about": "Acerca de mi"
+  },
+  "about": {
+    "title": "Hola mundo!",
+    "firstParagraph": "My name is Paula Sanchez and I'm a frontend engineer with over 5 years of experience in the field. Originally from Colombia, but I have been living and working in city of Mexico for the past four years. 🌎",
+    "secondParagraph": "I specialize in Javascript, TypeScript and Web Performance, with a strong focus on React and Next.js. I have a deep love for creating accessible web experiences and have made it my mission to create a culture around accessibility in all my projects. I've been a full-time software engineer since 2018, and I've had the opportunity to work with some incredible startups ranging from pre-seed to Series C like, which has been an amazing learning experience for me, both in terms of technology and business.",
+    "thirdParagraph": "In my free time, I like to challenge myself to be more creative and improve my tech skills by writing articles on commonly used technologies and subjects that are often misunderstood or take time to understand. I also enjoy giving talks at conferences and meetups.",
+    "fourParagraph": "Thanks for stopping by my site, and don't hesitate to reach out! 😊"
+  },
+  "talks": {
+    "title": "Talks",
+    "description": "sjdnjednejnjejnen"
   }
 }
