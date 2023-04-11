@@ -21,5 +21,8 @@
   "talks": {
     "title": "Talks",
     "description": "sjdnjednejnjejnen"
+  },
+  "footer": {
+    "made": "Made with 💜 and Next.js 13 beta, Tailwind CSS & Typescript"
   }
 }

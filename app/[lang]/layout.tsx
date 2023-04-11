@@ -38,7 +38,7 @@ export default async function RootLayout({
       <body>
       <Header dictionary={dictionary.header} lang={lang} />
         {children}
-        <Footer />
+        <Footer dictionary={dictionary.footer} />
       </body>
     </html>
   )

@@ -21,9 +21,6 @@ function Header({ dictionary, lang }: {dictionary: { about: string}; lang: Local
             <li className={s.list}>
               <Link href={`/${lang}/about`}>{dictionary.about}</Link>
             </li>
-            {/* <li className={s.list}>
-              <Link href='/blog'>blog</Link>
-            </li> */}
             <li className={s.list}>
               <Link href={`/${lang}/talks`}>talks</Link>
             </li>

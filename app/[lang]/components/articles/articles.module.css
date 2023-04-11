@@ -1,0 +1,14 @@
+.root {
+  background-color: var(--tertiary);
+  width: 300px;
+
+  @apply p-4 rounded-md
+}
+
+.imgCtn {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  display: grid;
+  place-items: center;
+}
