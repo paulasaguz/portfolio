@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { Locale } from '@/i18n-config'
 
 import paula from "@/public/images/background.png"
 import Twitter from '../icons/twitter';
@@ -13,7 +14,7 @@ import Youtube from '../icons/youtube';
 
 import s from './hero.module.css'
 
-function Hero({ dictionary }: {dictionary: any }): JSX.Element {
+function Hero({ dictionary, lang }: {dictionary: any; lang: Locale }): JSX.Element {
   return (
     <div className={s.hero}>
       <div className={`${s.wrapper} ctn`}>
@@ -46,7 +47,7 @@ function Hero({ dictionary }: {dictionary: any }): JSX.Element {
               <figcaption>Medium</figcaption>
             </a>
           </div>
-          <p className={s.paragraph}>{dictionary.description}{' '}<Link className="text-primary hover:underline" href="/about">{dictionary.link}</Link></p>
+          <p className={s.paragraph}>{dictionary.description}{' '}<Link className="text-primary hover:underline" href={`/${lang}/about`}>{dictionary.link}</Link></p>
         </div>
         <div className={s.image}>
           <Image 

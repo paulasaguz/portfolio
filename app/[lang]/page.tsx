@@ -9,7 +9,7 @@ const Home = async ({ params: { lang }}: { params: { lang: Locale }}) => {
   const dictionary = await getDictionary(lang);
   return (
     <>
-      <Hero dictionary={dictionary.landingPage} />
+      <Hero lang={lang} dictionary={dictionary.landingPage} />
       <Youtube />
       <Articles />
     </>
