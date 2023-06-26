@@ -36,7 +36,7 @@ export default async function RootLayout({
   return (
     <html lang={lang} className={`${poppins.variable} ${azeret.variable}`}>
       <body>
-      <Header dictionary={dictionary.header} lang={lang} />
+        <Header dictionary={dictionary.header} lang={lang} />
         {children}
         <Footer dictionary={dictionary.footer} />
       </body>
