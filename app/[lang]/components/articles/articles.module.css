@@ -5,6 +5,10 @@
   @apply p-4 rounded-md
 }
 
+.bar::-webkit-scrollbar {
+  display: none;
+}
+
 .bar {
   scrollbar-width: none;
   -ms-overflow-style: none;

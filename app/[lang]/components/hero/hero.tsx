@@ -21,7 +21,7 @@ function Hero({ dictionary, lang }: {dictionary: any; lang: Locale }): JSX.Eleme
         <div className={s.titleContainer}>
           <h1 className={s.h1}>{dictionary.title}</h1>
           <p className={s.subtitle}>{dictionary.subtitle}</p>
-          <div className='flex gap-3'>
+          <div className='flex flex-wrap gap-3'>
             <a className={s.icon} href="https://twitter.com/paulasaguz" target="_blank">
               <Twitter size='32px' />
               <figcaption>Twitter</figcaption>

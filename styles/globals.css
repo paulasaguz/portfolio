@@ -48,32 +48,32 @@ a {
 
     /* phoneXxs */
     @media (min-width: 280px) {
-      max-width: 260px;
+      max-width: 250px;
     }
 
     /* phoneXs */
     @media (min-width: 320px) {
-      max-width: 300px;
+      max-width: 280px;
     }
 
     /* phoneSm */
     @media (min-width: 360px) {
-      max-width: 340px;
+      max-width: 320px;
     }
 
     /* phoneMd */
     @media (min-width: 375px) {
-      max-width: 350px;
+      max-width: 340px;
     }
 
     /* phoneLg */
     @media (min-width: 411px) {
-      max-width: 380px;
+      max-width: 360px;
     }
 
     /* phoneXl */
     @media (min-width: 414px) {
-      max-width: 390px;
+      max-width: 370px;
     }
 
     @media (min-width: 768px) {
