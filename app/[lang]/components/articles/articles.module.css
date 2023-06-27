@@ -5,6 +5,13 @@
   @apply p-4 rounded-md
 }
 
+.bar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-x: -moz-scrollbars-none;
+  overflow-x: scroll;
+}
+
 .imgCtn {
   position: relative;
   width: 300px;

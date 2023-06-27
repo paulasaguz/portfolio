@@ -11,7 +11,7 @@ const Articles = () => {
   return (
     <div className='ctn mb-8 mt-12'>
       <h2>Blog posts</h2>
-      <div className="flex flex-wrap gap-4">
+      <div className={`${s.bar} flex gap-4`}>
         <a target="_blank" href="https://medium.com/@paulajohana/tips-para-hacer-tu-primer-prueba-técnica-frontends-c18f5a813434" className={s.root}>
           <div className={s.imgCtn}>
             <Image
