@@ -5,7 +5,7 @@
   "landingPage": {
     "title": "Hola, soy Paula",
     "subtitle": "Frontend engineer",
-    "description": "Soy una desarrolladora frontend con 5 años de experiencia construyendo increibles productos digitales.",
+    "description": "Soy una desarrolladora frontend con 6 años de experiencia construyendo increibles productos digitales.",
     "link": "Leer mas →"
   },
   "header": {
@@ -13,7 +13,7 @@
   },
   "about": {
     "title": "Hola mundo!",
-    "firstParagraph": "Soy Paula Sanchez, desarrolladora frontend con mas de 5 años de experiencia en el area. Soy Colombiana, y he estado viviendo en la ciudad de Mexico desde hace 4 años 🌎",
+    "firstParagraph": "Soy Paula Sanchez, desarrolladora frontend con mas de 6 años de experiencia en el area. Soy Colombiana, y he estado viviendo en la ciudad de Mexico desde hace 4 años 🌎",
     "secondParagraph": "Me especializo en Javascript, TypeScript y Web Performance, con un fuerte enfoque en React and Next.js. Me encanta crear experiencias accesibles y como parte de mi mision me gusta generar una cultura de accesibilidad en los proyectos donde he contribuido. He estado trabajando como desarrolladora de software desde 2018, en ese tiempo he tenido la oportunidad de trabajar en startups increibles desde su inicio hasta su serie C, lo cual ha sido una enorme oportunidad de aprendizaje para mi en terminos de tecnologias y del negocio.",
     "thirdParagraph": "En mi tiempo libre me pongo retos para incentivar mi creatividad y mejorar mis habilidades tecnicas escribiendo articulos acerca de las tecnologias que me gustaria entender mejor, tambien disfruto de asistir a eventos y conferencias.",
     "fourParagraph": "Gracias por visitar mi web, no dudes en contactarme! 😊"
@@ -23,6 +23,6 @@
     "description": "sjdnjednejnjejnen"
   },
   "footer": {
-    "made": "Hecho con 💜 y Next.js 13 beta, Tailwind CSS & Typescript"
+    "made": "Hecho con 💜 y Next.js 13, Tailwind CSS & Typescript"
   }
 }
